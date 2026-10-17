@@ -8,7 +8,7 @@ models), not the ChatGPT website. Online deployment is deferred.
 
 ![Looping 3-minute Cedar Compass demo](Demo.gif)
 
-[Download the full-quality demo with audio (MP4)](Demo.mp4?raw=1)
+[Download the full-quality demo with audio (MP4)](https://github.com/Suhaib-AbuRaidah/Agentic_systems_assignment_3/raw/refs/heads/main/business_bot/Demo.mp4)
 
 The GIF loops without audio; the MP4 retains full quality and audio. The
 recording shows the local interface and a live conversation. The saved
