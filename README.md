@@ -5,9 +5,10 @@ setup instructions, notebook, and tests are in [business_bot](business_bot/READM
 
 ## Video demonstration
 
-[![Watch the 3-minute Cedar Compass demo](business_bot/assets/demo-preview.jpg)](business_bot/Demo.mp4)
+![Looping 3-minute Cedar Compass demo](business_bot/Demo.gif)
 
-[▶ Watch or download Demo.mp4](business_bot/Demo.mp4)
+[Download the full-quality demo with audio (MP4)](business_bot/Demo.mp4?raw=1)
 
-The video shows real interactions with the local app. The app requires an
+The GIF loops without audio. The MP4 shows the same interactions with full
+quality and audio. The app requires an
 OpenAI API key for live responses; the key is not included in this repository.

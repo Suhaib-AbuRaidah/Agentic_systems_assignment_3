@@ -6,11 +6,12 @@ models), not the ChatGPT website. Online deployment is deferred.
 
 ## Video demonstration
 
-[![Watch the 3-minute Cedar Compass demo](assets/demo-preview.jpg)](Demo.mp4)
+![Looping 3-minute Cedar Compass demo](Demo.gif)
 
-[▶ Watch or download Demo.mp4](Demo.mp4)
+[Download the full-quality demo with audio (MP4)](Demo.mp4?raw=1)
 
-The recording shows the local interface and a live conversation. The saved
+The GIF loops without audio; the MP4 retains full quality and audio. The
+recording shows the local interface and a live conversation. The saved
 records and tool decisions are explained below and in `DEMO.md`.
 
 ## Run locally
@@ -205,7 +206,7 @@ business_bot/
   inspect_records.py / build_artifacts.py
   requirements.txt / requirements.lock.txt
   README.md / DEMO.md
-  Demo.mp4
+  Demo.mp4 / Demo.gif
   assets/demo-preview.jpg
   tests/test_agent.py
   .env.example / .gitignore
