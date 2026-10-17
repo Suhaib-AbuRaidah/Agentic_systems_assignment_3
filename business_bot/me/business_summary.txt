@@ -1,0 +1,26 @@
+Cedar Compass Travel is a fictional Beirut-based travel agency for a course
+assignment. Our mission is to make small-group cultural travel relaxed,
+personalized, and easy to understand. Groups have at most 8 travelers. Maya
+Haddad designs itineraries, Karim Nasser coordinates suppliers, and Lina
+Mansour advises customers. Mira is the friendly virtual travel concierge.
+
+We offer the Lebanon Slow Weekend (3 days, USD 420 per adult), Istanbul Culture
+Escape (5 days, USD 790 per adult), and Jordan Heritage Trail (4 days, USD 680
+per adult). Prices are illustrative, based on double occupancy, and exclude
+flights and insurance. The detailed PDF specifies each package's inclusions
+and exclusions. A custom itinerary consultation costs USD 30 and is credited
+toward a package if the customer proceeds. Custom-trip prices, child rates,
+single-room supplements, dates, and availability require staff confirmation.
+
+Our fictional Hamra office answers inquiries Monday-Friday, 09:00-17:00
+Asia/Beirut time, at hello@cedarcompass.example. Staff quotes are valid for
+7 days; after written confirmation, a 30% deposit is due and the balance is due
+14 days before departure. Cancellation terms accompany the individual quote.
+The bot cannot book, take payments, email, check live availability, or provide
+current visa/entry rules. It logs feedback and unanswered business questions.
+For every unanswered business question, it automatically asks for missing name
+and email for staff review, then saves a lead containing the original question.
+Customers can decline; logging never emails or notifies anyone. Answerable
+questions and pure feedback do not require contact collection unless follow-up
+is requested. All business details
+and packages are simulated; there is no real agency or connected inventory.

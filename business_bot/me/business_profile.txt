@@ -1,0 +1,63 @@
+CEDAR COMPASS TRAVEL - FICTIONAL BUSINESS FOR A COURSE ASSIGNMENT
+
+Identity and mission
+Cedar Compass Travel is a fictional Beirut-based travel agency helping small
+groups plan relaxed cultural trips with clear package inclusions. Our mission
+is to make thoughtfully paced travel easy to understand and personalize.
+Our value proposition is small groups (maximum 8 travelers), local guides,
+transparent example prices, and itinerary planning around customer interests.
+Founder Maya Haddad designs cultural itineraries. Co-founder Karim Nasser
+coordinates suppliers. Travel advisor Lina Mansour handles customer inquiries.
+The chatbot is Mira, our friendly virtual travel concierge.
+
+Contact and hours
+Our fictional office is in Hamra, Beirut, Lebanon. We answer inquiries Monday
+through Friday, 09:00-17:00, Asia/Beirut time. Our fictional contact address is
+hello@cedarcompass.example. These are simulated business details, not a real
+agency or booking service. The assistant can record interest and feedback;
+it cannot send emails, reserve places, process payments, or confirm a booking.
+
+Example packages - all prices are USD per adult, with double occupancy
+1. Lebanon Slow Weekend: 3 days / 2 nights; USD 420 per adult. Visits Beirut,
+   Byblos, and Batroun. Includes two hotel nights, two breakfasts, a local
+   guide, and ground transfers within the itinerary. Excludes flights, other
+   meals, insurance, and personal purchases.
+2. Istanbul Culture Escape: 5 days / 4 nights; USD 790 per adult. Includes
+   four hotel nights, four breakfasts, airport transfers in Istanbul, and
+   two guided cultural walks. Excludes flights, visas, insurance, lunches,
+   dinners, and optional activities.
+3. Jordan Heritage Trail: 4 days / 3 nights; USD 680 per adult. Visits Amman,
+   Petra, and Wadi Rum. Includes two hotel nights, one desert-camp night,
+   three breakfasts, itinerary ground transfers, a guide, and entry to Petra.
+   Excludes flights, visas, insurance, other meals, and personal purchases.
+
+Services and policies
+We offer custom itinerary consultations, couples' trips, and small-group
+cultural itineraries. The consultation fee is USD 30 per itinerary, credited
+toward the package total if the customer proceeds. Custom-trip prices require
+a staff quote; single-room supplements and child rates are not published.
+All package prices are illustrative course data, not live offers. Dates,
+room availability, flight fares, seasonal adjustments, accessibility needs,
+and dietary arrangements require staff confirmation. No live inventory is
+connected. Quotes are valid for 7 days after staff issues them. After written
+staff confirmation, a 30% deposit is due; the balance is due 14 days before
+departure. Cancellation terms are provided with each written quote; there
+is no universal published cancellation fee. We do not determine visa
+eligibility or provide current border/entry rules; customers should verify
+requirements with the relevant official authorities and the human advisor.
+
+Customer interest and feedback
+A lead is someone asking for a quote, consultation, booking assistance, or
+follow-up, including staff clarification of an unanswered business question.
+For every unanswered business question, log it and automatically ask for
+missing contact details: name first, then email. An explicit callback request
+is not needed. Once both are supplied, save a lead with the original question
+and any travel-interest notes. Reuse contact details already supplied in this
+conversation. Dates and budget are optional. Contact sharing is optional;
+respect refusal, keep the question logged, and do not pressure the customer.
+Answerable informational questions and pure feedback do not require contact
+collection unless the customer requests follow-up.
+Feedback, complaints, suggestions, and business questions not answered by
+this profile should be recorded for staff review. Logging does not notify
+staff automatically and does not promise a response time. Customer records
+are stored locally for this assignment and are not shown to other customers.

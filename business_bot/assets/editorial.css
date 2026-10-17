@@ -1,0 +1,118 @@
+/* Copied and adapted from Ultra Explainer's Editorial preset and components.
+   Copyright (c) 2026 hookdump — MIT; see ULTRAEXPLAINER-LICENSE.txt.
+   System fonts and inline SVG keep this presentation self-contained. */
+.gradio-container {
+  --cc-bg: #f6f1e7; --cc-surface: #fbf7ee; --cc-surface-2: #efe8da;
+  --cc-paper: #fffdf8; --cc-text: #1f1a14; --cc-dim: #5a4f42;
+  --cc-line: rgba(40,32,24,.16); --cc-line-strong: rgba(40,32,24,.34);
+  --cc-accent: #8a2b2b; --cc-gold: #b08d2e;
+  --cc-display: Georgia, "Times New Roman", serif;
+  max-width: 1120px !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  box-sizing: border-box;
+  margin: 0 auto !important;
+  padding: 24px clamp(14px, 3vw, 36px) 32px !important;
+  background: var(--cc-bg) !important;
+  color: var(--cc-text);
+}
+.gradio-container > .main { padding: 0 !important; min-width: 0 !important; width: 100%; }
+.dark .gradio-container, .gradio-container.dark {
+  --cc-bg: #1a1814; --cc-surface: #221f19; --cc-surface-2: #1d1a14;
+  --cc-paper: #28241d; --cc-text: #ece3d2; --cc-dim: #b3a88f;
+  --cc-line: rgba(220,205,178,.16); --cc-line-strong: rgba(220,205,178,.30);
+  --cc-accent: #d98a8a; --cc-gold: #c9a651;
+}
+.cc-header, .cc-hero, .cc-journeys, .cc-chat-heading { color: var(--cc-text); }
+.cc-header *, .cc-hero *, .cc-journeys *, .cc-chat-heading * { box-sizing: border-box; }
+.cc-header { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding-bottom: 18px; border-bottom: 1px solid var(--cc-line-strong); }
+.cc-brand { display: flex; align-items: center; gap: 11px; }
+.cc-logo { width: 44px; height: 44px; color: var(--cc-accent); flex-shrink: 0; }
+.cc-wordmark { display: block; font: 24px/1.2 var(--cc-display); letter-spacing: -.5px; }
+.cc-brand-sub { display: block; margin-top: 4px; font: 9px/1.3 Arial, sans-serif; letter-spacing: 2.5px; color: var(--cc-dim); }
+.cc-project-tag { font-size: 11px; color: var(--cc-dim); text-align: right; }
+.cc-hero { display: grid; grid-template-columns: 1fr 260px; gap: 24px; align-items: center; padding: 35px 0 30px; }
+.cc-kicker { font: 12px/1.5 Arial, sans-serif; letter-spacing: 1.6px; text-transform: uppercase; color: var(--cc-accent); margin: 0 0 16px; }
+.cc-hero h1 { font: 400 clamp(36px, 5.3vw, 58px)/1.04 var(--cc-display); letter-spacing: -1.5px; margin: 0 0 18px; }
+.cc-hero h1 em { color: var(--cc-accent); font-weight: 400; }
+.cc-lede { font: 16px/1.7 Arial, sans-serif; color: var(--cc-dim); margin: 0 0 20px; }
+.cc-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.cc-chips span { font: 11px/1.4 Arial, sans-serif; border: 1px solid var(--cc-line); border-radius: 3px; padding: 6px 10px; color: var(--cc-dim); }
+.cc-hero-art { color: var(--cc-gold); text-align: center; }
+.cc-hero-art svg { width: 100%; height: auto; display: block; }
+.cc-hero-art span { font: italic 13px/1.5 var(--cc-display); color: var(--cc-dim); }
+.cc-section-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; border-bottom: 2px solid var(--cc-gold); padding-bottom: 9px; margin-bottom: 16px; }
+.cc-section-heading h2 { margin: 0; font: 400 21px/1.3 var(--cc-display); }
+.cc-section-heading > span { font-size: 11px; color: var(--cc-dim); }
+.cc-package-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.cc-package { border: 1px solid var(--cc-line); border-radius: 4px; overflow: hidden; background: var(--cc-surface); }
+.cc-card-art { position: relative; height: 92px; background: var(--cc-surface-2); color: var(--cc-gold); }
+.cc-lebanon .cc-card-art { color: #66775e; }
+.cc-istanbul .cc-card-art { color: #637d8b; }
+.cc-jordan .cc-card-art { color: #ad7051; }
+.dark .cc-lebanon .cc-card-art { color: #9cab88; }
+.dark .cc-istanbul .cc-card-art { color: #9aafbb; }
+.dark .cc-jordan .cc-card-art { color: #ce9677; }
+.cc-card-art svg { width: 100%; height: 100%; display: block; }
+.cc-card-number { position: absolute; top: 12px; left: 16px; font: 10px/1.4 Arial, sans-serif; letter-spacing: 1.5px; color: var(--cc-dim); }
+.cc-card-copy { padding: 16px; }
+.cc-duration { margin: 0 0 7px; font: 10px/1.4 Arial, sans-serif; letter-spacing: 1px; text-transform: uppercase; color: var(--cc-accent); }
+.cc-package h3 { margin: 0 0 8px; font: 400 20px/1.25 var(--cc-display); letter-spacing: -.3px; }
+.cc-card-description { margin: 0; font: 12px/1.7 Arial, sans-serif; color: var(--cc-dim); }
+.cc-card-bottom { display: flex; align-items: center; flex-wrap: wrap; justify-content: space-between; gap: 8px; border-top: 1px solid var(--cc-line); margin-top: 15px; padding-top: 12px; }
+.cc-price { font: 24px/1.3 var(--cc-display); white-space: nowrap; }
+.cc-price small { font: 10px/1.4 Arial, sans-serif; color: var(--cc-dim); }
+.cc-card-note { font: italic 11px/1.4 var(--cc-display); color: var(--cc-dim); }
+.cc-price-caption { margin: 12px 0 0; font: 11px/1.6 Arial, sans-serif; color: var(--cc-dim); }
+#cc-chat-section { margin-top: 16px; border: 1px solid var(--cc-line-strong); border-top: 3px solid var(--cc-accent); border-radius: 4px; background: var(--cc-surface); padding: 22px; gap: 12px; }
+.cc-chat-heading { display: flex; align-items: center; gap: 12px; padding-bottom: 14px; border-bottom: 1px solid var(--cc-line); }
+.cc-mira-badge { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; flex-shrink: 0; color: var(--cc-accent); background: var(--cc-surface-2); font: italic 26px var(--cc-display); border: 1px solid var(--cc-line); }
+.cc-chat-heading h2 { margin: 0 0 3px; font: 400 25px/1.2 var(--cc-display); }
+.cc-chat-heading p { margin: 0; font: 12px/1.5 Arial, sans-serif; color: var(--cc-dim); }
+#cc-chatbot { border: 1px solid var(--cc-line) !important; background: var(--cc-paper); box-shadow: none; }
+#cc-chatbot .message { font-size: 14px; line-height: 1.65; }
+#cc-chatbot .message.user { background: var(--cc-surface-2); }
+#cc-chatbot .message.bot { background: var(--cc-surface); }
+.cc-welcome { text-align: center; padding: 20px; max-width: 340px; margin: auto; color: var(--cc-dim); }
+.cc-welcome .cc-welcome-mark { font: italic 36px/1.3 var(--cc-display); color: var(--cc-accent); }
+.cc-welcome h3 { font: 400 22px/1.3 var(--cc-display); color: var(--cc-text); margin: 8px 0; }
+.cc-welcome p { font: 13px/1.7 Arial, sans-serif; margin: 0; }
+#cc-message textarea { font-size: 14px; }
+#cc-chat-section button { border-radius: 4px; }
+#cc-chat-section button:focus-visible, #cc-chat-section textarea:focus-visible { outline: 2px solid var(--cc-accent); outline-offset: 3px; }
+#cc-privacy { color: var(--cc-dim); font-size: 11px; line-height: 1.6; }
+#cc-privacy p, #cc-footer p { font-size: 11px; line-height: 1.65; color: var(--cc-dim); }
+#cc-trace { margin-top: 12px; background: transparent; }
+#cc-footer { padding-top: 12px; border-top: 1px solid var(--cc-line); color: var(--cc-dim); font-size: 11px; line-height: 1.6; }
+@media (max-width: 760px) {
+  .cc-hero { grid-template-columns: 1fr 150px; gap: 12px; padding: 28px 0; }
+  .cc-hero h1 { font-size: 40px; letter-spacing: -1px; }
+  .cc-lede { font-size: 14px; }
+  .cc-package-grid { gap: 10px; }
+  .cc-card-copy { padding: 12px; }
+  .cc-package h3 { font-size: 18px; }
+  .cc-card-note { display: none; }
+  #cc-chat-section { padding: 16px; }
+}
+@media (max-width: 540px) {
+  .cc-project-tag { max-width: 100px; font-size: 10px; }
+  .cc-wordmark { font-size: 21px; }
+  .cc-hero { grid-template-columns: 1fr; }
+  .cc-hero-art { display: none; }
+  .cc-hero h1 { font-size: 42px; }
+  .cc-lede br { display: none; }
+  .cc-section-heading > span { font-size: 10px; }
+  .cc-package-grid { grid-template-columns: 1fr; }
+  .cc-package { display: grid; grid-template-columns: 94px minmax(0, 1fr); }
+  .cc-card-art { height: 100%; min-height: 160px; }
+  .cc-card-art svg { position: absolute; bottom: 0; height: 92px; }
+  .cc-card-number { left: 10px; top: 14px; font-size: 9px; letter-spacing: .5px; }
+  .cc-card-description { font-size: 11px; }
+  .cc-card-copy { padding: 14px; }
+  .cc-card-bottom { margin-top: 10px; padding-top: 8px; }
+  .cc-chips { gap: 6px; }
+  .cc-chips span { font-size: 10px; padding: 5px 8px; }
+  #cc-chat-section { padding: 12px; }
+  .cc-chat-heading h2 { font-size: 22px; }
+  #cc-chatbot { height: 350px !important; }
+}
